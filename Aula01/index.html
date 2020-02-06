@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Teste</title>
+    <style>
+        /*div{
+            display: flex;
+            flex-direction: column;
+        }*/
+
+        #cont{
+            width: 500px;
+            height: 500px;
+            background-color: rosybrown;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .camp{
+            padding-top: 10px;
+        }
+        input{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <h1>Controle de Notas</h1>
+        <div class="camp">
+            Nome
+            <input type="text" id="nome" value="Daniel" class="textfield">
+        </div class="camp">
+        <div class="camp">
+            Nota1
+            <input type="text" id="nota1" class="textfield">
+        </div>
+        <div class="camp">
+            Nota2
+            <input type="text" id="nota2" class="textfield">
+        </div>
+        <div class="camp">
+            Média
+            <input type="text" id="media" disabled class="textfield">
+        </div>
+        <div class="camp">
+            Situação
+            <input type="text" id="situacao" disabled class="textfield">
+        </div>
+        <input type="button" value="calcular" id="calcular">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
